@@ -1,0 +1,25 @@
+From ddc724932e9e3c5b1cdd6c65575375406abb1697 Mon Sep 17 00:00:00 2001
+From: Yanhan0507 <yhzhang@utexas.edu>
+Date: Tue, 22 Sep 2015 14:29:23 -0500
+Subject: [PATCH] revert
+
+---
+ HelloWorld/src/HelloWorld.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/HelloWorld/src/HelloWorld.java b/HelloWorld/src/HelloWorld.java
+index 0a9b78c..b316ea1 100644
+--- a/HelloWorld/src/HelloWorld.java
++++ b/HelloWorld/src/HelloWorld.java
+@@ -1,7 +1,7 @@
+ 
+ public class HelloWorld {
+ 	public static void main( String [] args){
+-		System.out.println("Hallo Welt!");
++		System.out.println("Hello World!");
+ 	}
+ 
+ }
+-- 
+1.9.5 (Apple Git-50.3)
+
